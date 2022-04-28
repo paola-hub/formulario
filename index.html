@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="es">
+	<meta name="keywords" content="description">
+	<meta name="description" content="description">
+	<link href="style.css" rel="stylesheet">
+	<meta name="author" content="Paola">
+	<link rel="icon" type="icon.png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+</head>
+<body>
+	<!--Esto es un formulario-->
+	<!--<form name="miformulario" id="miformulario" method="post">
+		<input type="text" name="nombre" id="nombre">
+		<input type="submit" value="Enviar">
+		<br>
+	</form>-->
+	<center><div class="formulario">
+		<h1 class="ingresar">Ingresar</h1>
+		<form>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" id="nombre"  placeholder= "nombre"style="height: 25px;width: 284px;border-radius: 25px;padding-left: 10px"></input>
+			<br></br>
+
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" id="apellido" placeholder= "apellido"style="height: 25px;width: 284px;border-radius: 25px;padding-left: 10px"></input>
+			<br></br>
+
+			<label for="usuario">Usuario</label>
+			<input type="text" name="username" id="usuario" placeholder= "contacto@gmail.com"style= "height: 25px;width: 284px;border-radius: 25px; padding-left: 10px;"></input>
+			<br></br>
+
+			<label for="contraseña" id="usuario">Password</label>
+			<input type="password" name="psw" id="contraseña" placeholder= "contraseña" maxlength="8" style="height: 25px;width: 284px;border-radius: 25px;padding-left: 10px"></input>
+			<br></br>
+
+			<form>
+				<h2 class="selection">Formulario a seleccionar</h2>
+				<p>Titulación academica</p>
+				<select name="Titulacion academica">
+					<option value="ESO">ESO</option>
+					<option value="Bachiderato">Bachiderato</option>
+					<option value="Grado/licenciatura universitaria">Grado/licenciatura universitaria</option>
+					<option value="Máster univeritario">Máster univeritario</option>
+					<option value="Otros">Otros</option>
+				</select>
+			</form>
+			<label for="comentario" style="float: left;">Haz un comentario</label><br>
+			<textarea name="comentarios" id="comentario" placeholder= "Escríbenos aquí"cols="30" style="height: 90px;width: 365px;border-radius: 25px;padding-left: 10px"></textarea>
+		</form>
+		<form>
+			<input type="reset" style="padding-top: 5px;
+      			font-size: 15px;
+      			padding-bottom: 6px;
+      			padding-left: 6px;
+      			padding-right: 6px;
+      			background: #d70b0b45;
+      			color: black;
+      			border-radius: 25px;" name="">
+			<input type="submit" value="Enviar" style="padding-top: 5px;
+      			font-size: 15px;
+      			padding-bottom: 6px;
+      			padding-left: 6px;
+      			padding-right: 6px;
+      			background: #d70b0b45;
+      			color: black;
+      			border-radius: 25px;"></input><br>
+		</form>
+		<!--</div>-->
+		
+		<br></br>
+		<div class="condiciones">
+		<form>
+			<input type="checkbox" name="legal" value="aceptación legal">Acepto las condiciones de usos legale.</input><br></br>
+		<label for="acepto">He leido y acepto los <a href="https://www.rocketlawyer.com/es/es/guia-rapida/aviso-legal-pagina-web" style="color: blue">Terminos legales</a></label>
+		</form>
+		</div>
+	</div>
+	</center>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("img.jpeg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+.ingresar{
+	padding-bottom: 30px;
+}
+.formulario{
+	font-style: italic;
+	padding-top: 20px;
+	margin-top: 50px;
+	text-align: center;
+	display: inline-block;
+	font-family: sans-serif;
+	border: #5c5873 1px solid;
+	background-color: rgb(121 85 72 / 50%);
+	padding-right: 25px;
+	padding-left: 25px;
+	border-radius: 25px;
+}
+
+.condiciones{
+	text-align: center;
+	font-style: italic;
+}
+.selection{
+	padding-top: 20px;
+	font-size: 20px;
+}
+input[name]:hover, textarea:hover {
+			border: 1px solid #eb5757;
+}
+input[name]:focus, textarea:focus {
+			border: 1px solid  #eb5757;
+			outline: none;
+		}
